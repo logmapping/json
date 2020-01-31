@@ -1,0 +1,224 @@
+{
+  "loads": [
+    {
+      "id": 1,
+      "load_number": "L-1366",
+      "eta": {
+        "time": "00:24",
+        "status": "on_time"
+      },
+      "stops": {
+        "pickup": [
+          {
+            "place": "Piracicaba - SP",
+            "appointment_time": "2020-01-31 19:19:00"
+          }
+        ],
+        "delivery": [
+          {
+            "place": "São Paulo - SP",
+            "appointment_time": "2020-01-31 23:45:00"
+          }
+        ]
+      },
+      "travel_progress": 75
+    },
+    {
+      "id": 2,
+      "load_number": "L-1367",
+      "eta": {
+        "time": "-00:03",
+        "status": "late"
+      },
+      "stops": {
+        "pickup": [
+          {
+            "place": "Campinas - SP",
+            "appointment_time": "2020-01-24 18:02:00"
+          }
+        ],
+        "delivery": [
+          {
+            "place": "Curitiba - PR",
+            "appointment_time": "2020-01-29 02:13:00"
+          }
+        ]
+      },
+      "travel_progress": 26
+    },
+    {
+      "id": 3,
+      "load_number": "L-1368",
+      "eta": {
+        "time": "=82:03",
+        "status": "very_late"
+      },
+      "stops": {
+        "pickup": [
+          {
+            "place": "Campinas - SP",
+            "appointment_time": "2020-02-02 15:34:00"
+          }
+        ],
+        "delivery": [
+          {
+            "place": "Curitiba - PR",
+            "appointment_time": "2020-02-03 13:13:00"
+          }
+        ]
+      },
+      "travel_progress": 5
+    },
+    {
+      "id": 4,
+      "load_number": "L-1369",
+      "eta": {
+        "time": "19:03",
+        "status": "early"
+      },
+      "stops": {
+        "pickup": [
+          {
+            "place": "Curitiba - PR",
+            "appointment_time": "2020-02-06 08:30:00"
+          }
+        ],
+        "delivery": [
+          {
+            "place": "Curitiba - PR",
+            "appointment_time": "2020-02-06 10:41:00"
+          }
+        ]
+      },
+      "travel_progress": 100
+    }
+  ],
+  "stops": [
+    {
+      "id": 1,
+      "load_id": 1,
+      "pickup": [
+        {
+          "place": "Piracicaba - SP",
+          "appointment_time": "2020-01-31 19:19:00"
+        }
+      ],
+      "delivery": [
+        {
+          "place": "São Paulo - SP",
+          "appointment_time": "2020-01-31 23:45:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "load_id": 2,
+      "pickup": [
+        {
+          "place": "Campinas - SP",
+          "appointment_time": "2020-01-24 18:02:00"
+        }
+      ],
+      "delivery": [
+        {
+          "place": "Curitiba - PR",
+          "appointment_time": "2020-01-29 02:13:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "load_id": 3,
+      "pickup": [
+        {
+          "place": "Campinas - SP",
+          "appointment_time": "2020-02-02 15:34:00"
+        }
+      ],
+      "delivery": [
+        {
+          "place": "Curitiba - PR",
+          "appointment_time": "2020-02-03 13:13:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "load_id": 4,
+      "pickup": [
+        {
+          "place": "Curitiba - PR",
+          "appointment_time": "2020-02-06 08:30:00"
+        }
+      ],
+      "delivery": [
+        {
+          "place": "Curitiba - PR",
+          "appointment_time": "2020-02-06 10:41:00"
+        }
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": 1,
+      "load_id": 1,
+      "status": "PLATE_ASSIGNED"
+    },
+    {
+      "id": 2,
+      "load_id": 1,
+      "status": "PLATE_REMOVED"
+    },
+    {
+      "id": 3,
+      "load_id": 1,
+      "status": "PLATE_ASSIGNED"
+    },
+    {
+      "id": 1,
+      "load_id": 1,
+      "status": "LOAD_RUNNING_LATE"
+    },
+    {
+      "id": 4,
+      "load_id": 1,
+      "status": "PICKUP"
+    },
+    {
+      "id": 5,
+      "load_id": 1,
+      "status": "IN_TRANSIT"
+    },
+    {
+      "id": 6,
+      "load_id": 1,
+      "status": "DELIVERED"
+    },
+    {
+      "id": 7,
+      "load_id": 2,
+      "status": "PLATE_ASSIGNED"
+    },
+    {
+      "id": 8,
+      "load_id": 2,
+      "status": "IN_TRANSIT"
+    },
+    {
+      "id": 9,
+      "load_id": 4,
+      "status": "PLATE_ASSIGNED"
+    },
+    {
+      "id": 10,
+      "load_id": 4,
+      "status": "LOAD_RUNNING_LATE"
+    },
+    {
+      "id": 11,
+      "load_id": 4,
+      "status": "IN_TRANSIT"
+    }
+  ]
+}
